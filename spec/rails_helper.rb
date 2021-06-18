@@ -3,6 +3,8 @@ require 'spec_helper'
 
 require 'database_cleaner'
 
+require 'faker'
+
 
 ENV['RAILS_ENV'] ||= 'test'
 
