@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :item do
     name { Faker::Movies::StarWars.character }
@@ -5,4 +7,3 @@ FactoryBot.define do
     todo_id { nil }
   end
 end
-
