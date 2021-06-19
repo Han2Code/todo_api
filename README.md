@@ -2,6 +2,10 @@
 
 Todo API
 
+Authentication added with: 
+
+	gem 'jwt'
+
 Using: 
 
 	gem 'factory_bot_rails'
